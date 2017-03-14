@@ -1,0 +1,12 @@
+docker build -t="df007df/php5swoole:1.0" .
+
+curl -sS https://getcomposer.org/installer | php
+
+
+https://agalwood.gitbooks.io/zan-doc/content/zh/web/in_one_minute.html
+
+
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
+
+
+docker run -it -v /Users/df/work/tools/docker/www:/var/www df007df/php5swoole /bin/bash

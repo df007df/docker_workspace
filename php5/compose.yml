@@ -1,0 +1,6 @@
+php7swoole:
+    image: df007df/php7swoole:latest
+    volumes:
+        - /Users/df/work/www/zanphp:/var/www/zanphp
+    ports:
+        - "9100:9100"
